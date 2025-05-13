@@ -1,0 +1,64 @@
+body{
+   margin: 0;
+   text-align: center;
+   font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: rgba(110, 72, 2, 0.418);
+  background-color: white;
+}
+.design{
+     text-shadow: 1px 2px 3px rgba(119, 78, 0, 0.543) ;
+}
+#menu{
+    background-image: url(bananaisland.jpg);
+   background-size: cover;
+   padding: 20px 0px 250px 0px;
+}
+.bay{
+   width: 120px;
+}
+.boat{
+   width: 150px;
+}
+.kids{
+   width: 200px;
+}
+.activities{
+   display: flex;
+   justify-content: space-around;
+   padding: 10% 5px;
+   background-color:aliceblue; 
+}
+img{
+   border-radius: 1800px;
+   border: 1px solid rgba(122, 81, 3, 0.662);
+}
+.image{
+   width: 130px;
+}
+.id-card{
+   display: flex;
+   justify-self: center;
+   border: 2px solid rgba(122, 81, 3, 0.662) ;
+   max-width: 80%;
+   min-height: 20vh;
+   padding: 10px;
+   border-radius: 15px;
+   border-bottom: 6px solid rgba(122, 81, 3, 0.662);
+   background-color: wheat;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+}
+.letter{
+   align-items: center;
+   padding-left: 10px;
+   padding-top: 40px;
+}
+@media screen and (max-width: 800px){
+  #menu{width: 1300px;}
+  .activities{width: 1300px;}
+  body{width: 1300px;}
+}
